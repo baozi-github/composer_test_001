@@ -1,0 +1,13 @@
+{
+    "name": "composer_test/composer_test",
+    "description": "我是测试composer包",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Composer_test\\Composer_test\\":"src/Composer_test/Composer_test"
+		}
+	}
+}
